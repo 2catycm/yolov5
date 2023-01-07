@@ -1,0 +1,14 @@
+path: ./datasets/sustech_traffic_sign  # dataset root dir
+train: images
+val: images
+# test: ../test/images
+
+nc: 8
+names: ['i14', 'ip', 'ph4.5', 'pl15', 'pl30', 'pne', 'w31', 'w57']
+
+roboflow:
+  workspace: pokemondataset
+  project: sustech-traffic-sign-detection
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pokemondataset/sustech-traffic-sign-detection/dataset/4
