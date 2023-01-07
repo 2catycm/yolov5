@@ -1,0 +1,1 @@
+python train.py --img 640 --batch-size 32 --hyp "实验/tt100k/hyp.分析1.yaml" --data "coco128.yaml" --epochs 100 --weights pretrained/yolov5m.pt --cfg yolov5m.yaml 
